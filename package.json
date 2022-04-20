@@ -1,0 +1,33 @@
+{
+  "name": "django_base",
+  "version": "1.0.0",
+  "description": "Django base project",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "NODE_ENV=development webpack",
+    "webpack-build": "NODE_ENV=production webpack"
+  },
+  "author": "CallMarl",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^1.4.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "source-map-loader": "^3.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "vue": "^2.6.14"
+  }
+}

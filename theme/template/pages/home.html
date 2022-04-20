@@ -1,0 +1,16 @@
+{% extends "layout/main.html" %}
+
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+    <h5>VueJS is working, if the message "Hello World !" appear bellow.</h5>
+    <hr/>
+    <br/>
+    <div class="w-100">
+        <p class="text-center">[[ message ]]</p>
+    </div>
+{% endblock %}
+{% block extra_script%}
+    <script src="{% static  '/dist/pages/home.js' %}"></script>
+{% endblock %}
